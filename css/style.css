@@ -1,0 +1,160 @@
+@charset "UTF-8";
+body {
+  background: #F1F1F1;
+}
+
+.top {
+  background: #088f33;
+  min-height: 40px;
+}
+.top .social-links {
+  text-align: center;
+}
+.top .social-links li {
+  display: inline;
+}
+.top .social-links ul li a i {
+  font-size: 14px;
+  padding: 6px 0;
+  background-color: #fff;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  border-radius: 50%;
+  color: #088f33;
+}
+.top .social-links i.fa-facebook:hover {
+  background-color: #3b5997;
+  color: #fff;
+}
+.top .social-links i.fa-google-plus:hover {
+  background-color: #d13d2f;
+  color: #fff;
+}
+.top .social-links i.fa-twitter:hover {
+  background-color: #29c5f6;
+  color: #fff;
+}
+
+.bg-light {
+  background: #0B732B !important;
+}
+
+.navbar-brand {
+  position: absolute;
+  top: -44px;
+  z-index: 99999;
+}
+.navbar-brand img {
+  border: 5px solid orange;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 25px 18px;
+  color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  background: orange;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+#carouselExampleCaptions .w-100 {
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  bottom: 200px;
+}
+
+.block1 h4 {
+  background: #088f33;
+  color: #fff;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.featured ul {
+  list-style: none;
+}
+.featured ul li::before {
+  content: "→";
+  color: #088f33;
+}
+
+.box {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+.box:hover img {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+.box:hover p {
+  background: orange;
+}
+.box img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  width: 100%;
+}
+.box p {
+  position: absolute;
+  background: #088f33;
+  color: #fff;
+  padding: 4px;
+  bottom: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background: orange;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 0;
+}
+
+.nav-pills .nav-link {
+  background: #088f33;
+  border-radius: 0px;
+  color: #fff;
+  padding: 14px 30px;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  background: #088f33;
+  color: #fff;
+  margin: 4px 0;
+}
+
+.accordion-button::after {
+  background-image: url(../img/a.png);
+}
+
+.abcd {
+  background: url(https://www.plannepal.com/assets/img/testimonials/clients.jpg);
+  color: #fff;
+  padding: 30px;
+}
+.abcd .w-100 {
+  height: 300px;
+}
+.abcd .carousel-caption {
+  bottom: 0;
+}
+
+.sajan {
+  width: 70%;
+  background: #fff;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  z-index: 9999;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}/*# sourceMappingURL=style.css.map */
